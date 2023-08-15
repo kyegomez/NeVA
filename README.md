@@ -17,7 +17,7 @@ pip install nevax
 
 ```python
 import torch
-from nevax.model import Neva
+from nevax import Neva
 
 #usage
 img = torch.randn(1, 3, 256, 256)
