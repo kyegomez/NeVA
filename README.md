@@ -1,15 +1,30 @@
 # NeVA: NVIDIA's Visual Question Answering Transformer
 
 NeVA is a powerful and versatile Visual Question Answering model powered by NVIDIA's expertise. It builds upon the open-source LLaMA model, integrating it with an NVIDIA-trained GPT model to offer state-of-the-art performance.
+---
 
 ## Installation
 
 To integrate NeVA into your Python environment, you can install it via pip:
 
 ```bash
-pip install neva
+pip install nevax
 ```
+---
 
+## Usage
+
+```python
+import torch
+from nevax.model import Neva
+
+#usage
+img = torch.randn(1, 3, 256, 256)
+caption_tokens = torch.randint(0, 4)
+
+model = Neva()
+output = model(img, caption_tokens)
+```
 
 ## Description
 
@@ -62,5 +77,7 @@ At a high level, NeVA utilizes a frozen Hugging Face CLIP model to encode images
 
 ## Licensing
 
-This project is licensed under the [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) license.
+This project is licensed under the [MIT License](/LICENSE) license.
 
+
+# Citation
