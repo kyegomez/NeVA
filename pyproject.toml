@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nevaX"
-version = "0.1.1"
+version = "0.1.2"
 description = "NeVA: NVIDIA's Visual Question Answering Transformer"
 authors = ["Kye Gomez <kye@apac.ai>"]
 license = "Attribution-NonCommercial 4.0 International"
@@ -11,6 +11,7 @@ repository = "https://github.com/kyegomez/neva"
 [tool.poetry.dependencies]
 python = "^3.6"
 torch = "*"
+einops = "*"
 transformers = "*"
 
 [build-system]
