@@ -1,7 +1,6 @@
 [![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
 
 
-
 # NeVA: NVIDIA's Visual Question Answering Transformer
 
 [NeVA is a powerful and versatile Visual Question Answering model by NVIDIA](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/playground/models/neva/bias). Neva builds upon the open-source LLaMA model, integrating it with an NVIDIA-trained GPT model to offer state-of-the-art performance. 
