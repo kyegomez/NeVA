@@ -1,4 +1,6 @@
-[Join Agora](https://discord.gg/qUtxnK2NMf) the community of AI engineers changing the world with their creations.
+[![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
+
+
 
 # NeVA: NVIDIA's Visual Question Answering Transformer
 
