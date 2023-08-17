@@ -7,6 +7,7 @@ from nevax.transformer import (
     AndromedaEmbedding,
     AutoregressiveWrapper,
     Decoder,
+    Encoder,
     Transformer,
     ViTransformerWrapper,
 )
@@ -62,7 +63,7 @@ class Neva(nn.Module):
         self.encoder = ViTransformerWrapper(
             image_size=image_size,
             patch_size=patch_size,
-            attn_layers=Decoder(
+            attn_layers=Encoder(
                 dim=dim,
                 depth=depth,
                 dim_head=dim_head,
