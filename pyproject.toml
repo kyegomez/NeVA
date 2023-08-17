@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nevaX"
-version = "0.1.2"
+version = "0.1.3"
 description = "NeVA: NVIDIA's Visual Question Answering Transformer"
 authors = ["Kye Gomez <kye@apac.ai>"]
 license = "Attribution-NonCommercial 4.0 International"
