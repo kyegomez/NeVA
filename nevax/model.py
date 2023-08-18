@@ -159,7 +159,8 @@ class Neva(nn.Module):
         #         heads=heads
         #     )
         # )
-
+        
+        #####
         self.clip_model = CLIPModel.from_pretrained("laion/CLIP-ViT-L-14-laion2B-s32B-b82K").vision_model
         self.output_projection = nn.Linear(2048, num_tokens, bias=False)
         nn.init.normal_(self.output_projection.weight, mean=0, std=2048**-0.5)
